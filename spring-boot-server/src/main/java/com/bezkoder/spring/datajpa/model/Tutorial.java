@@ -1,13 +1,14 @@
 package com.bezkoder.spring.datajpa.model;
 
-import javax.persistence.*;
+//import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "tutorials")
 public class Tutorial {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 
 	@Column(name = "title")

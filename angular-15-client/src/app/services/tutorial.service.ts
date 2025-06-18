@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Tutorial } from '../models/tutorial.model';
 
-const baseUrl = 'http://localhost:8080/api/tutorials';
+const baseUrl = 'https://special-space-xylophone-w5975xvvxxvh9wr-8080.app.github.dev/api/tutorials';
 
 @Injectable({
   providedIn: 'root'
