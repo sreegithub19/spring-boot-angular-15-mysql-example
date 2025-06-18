@@ -43,7 +43,7 @@ The Spring Boot Server will export API at port `8081`.
 3.
 ## Run Angular Client
 ```
-cd angular-15-client && npm install && npm install -g @angular/cli && ng serve
+cd angular-15-client && npm install && npm install -g @angular/cli && ng serve --port 8081
 ```
 
 4.
