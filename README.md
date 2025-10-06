@@ -23,8 +23,10 @@ More Practice:
 0.
 ## Git
 ```
+apt install -y nodejs npm
 git config --global --add safe.directory /workspaces/spring-boot-angular-15-mysql-example
 git config --global user.email "cpadmaja2003@gmail.com" && git config --global user.name "sreegithub19"
+git add . && git commit -m "C" && git push origin master
 ```
 
 1.
