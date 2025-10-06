@@ -10,7 +10,7 @@
     "mounts": [
     "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
   ],
-  "forwardPorts": [8080, 3306],
+  "forwardPorts": [8080, 3307],
   "customizations": {
     "vscode": {
       "extensions": [
