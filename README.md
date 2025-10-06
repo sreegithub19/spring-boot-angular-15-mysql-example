@@ -20,24 +20,18 @@ More Practice:
 
 # Steps:  (for Github codespace)
 
-0.
-## Git
-```
-apt update && apt install openjdk-21-jdk -y && export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 && export PATH=$JAVA_HOME/bin:$PATH && apt install -y docker.io && apt install -y nodejs npm && git config --global --add safe.directory /workspaces/spring-boot-angular-15-mysql-example && git config --global user.email "cpadmaja2003@gmail.com" && git config --global user.name "sreegithub19" && git add . && git commit -m "C" && git push origin master
-```
-
 1.
 ## Git , Run Spring Boot application
 ```
-apt update && apt install openjdk-21-jdk -y && export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 && export PATH=$JAVA_HOME/bin:$PATH && apt install -y docker.io
+apt update && apt-get install -y lsof && apt install openjdk-21-jdk -y && export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 && export PATH=$JAVA_HOME/bin:$PATH && apt install -y nodejs npm && git config --global --add safe.directory /workspaces/spring-boot-angular-15-mysql-example && git config --global user.email "cpadmaja2003@gmail.com" && git config --global user.name "sreegithub19" && git add . && git commit -m "C" && git remote set-url origin https://sreegithub19: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@github.com/sreegithub19/spring-boot-angular-15-mysql-example.git && git push origin master
 ```
-
 
 2.
 ## MySQL
 ```
+docker compose -f ../docker-compose.yml up -d
 chmod +x run_queries.sh && ./run_queries.sh
-docker-compose up -d && docker ps
+docker compose up -d && docker ps
 cd spring-boot-server && mvn spring-boot:run
 ```
 The Spring Boot Server will export API at port `8081`.
