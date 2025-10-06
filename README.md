@@ -28,6 +28,7 @@ apt update && apt-get install -y mysql-client && apt-get install -y lsof && apt 
 ```
 
 
+
 2.
 ## MySQL (Terminal 2)
 ```
