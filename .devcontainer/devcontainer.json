@@ -1,9 +1,9 @@
 {
   "name": "Spring Boot + MySQL",
     "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile" 
   },
-  "image": "ubuntu:22.04",
+  "image": "ubuntu:22.04", 
   "dockerComposeFile": ["../docker-compose.yml"],
   "service": "mysql",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
