@@ -24,7 +24,7 @@ More Practice:
 1. 
 ## Git , Run Spring Boot application   
 ```
-apt update && apt-get install -y lsof && apt install openjdk-21-jdk -y && export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 && export PATH=$JAVA_HOME/bin:$PATH && apt install -y nodejs npm && git config --global --add safe.directory /workspaces/spring-boot-angular-15-mysql-example && git config --global user.email "cpadmaja2003@gmail.com" && git config --global user.name "sreegithub19" && git remote set-url origin https://sreegithub19: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@github.com/sreegithub19/spring-boot-angular-15-mysql-example.git && git add . && git commit -m "C" && git push origin master
+apt update && apt-get install -y lsof && apt install openjdk-21-jdk -y && export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 && export PATH=$JAVA_HOME/bin:$PATH && apt install -y nodejs npm && git config --global --add safe.directory /workspaces/spring-boot-angular-15-mysql-example && git config --global user.email "cpadmaja2003@gmail.com" && git config --global user.name "sreegithub19" && git remote set-url origin https://sreegithub19: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@github.com/sreegithub19/spring-boot-angular-15-mysql-example.git && git add . && git commit -m "C" && git push origin master
 ```
 
 2.
