@@ -18,13 +18,21 @@ More Practice:
 
 > [Angular + Spring Boot: JWT Authentication and Authorization example](https://www.bezkoder.com/angular-15-spring-boot-jwt-auth/)
 
-# Steps: 
+# Steps:  (for Github codespace)
+
+0.
+## Git
+```
+git config --global --add safe.directory /workspaces/spring-boot-angular-15-mysql-example
+git config --global user.email "cpadmaja2003@gmail.com" && git config --global user.name "sreegithub19"
+```
 
 1.
 ## Run Spring Boot application
 ```
-sudo apt update && sudo apt install openjdk-21-jdk -y
- export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 && export PATH=$JAVA_HOME/bin:$PATH
+apt update && apt install openjdk-21-jdk -y
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 && export PATH=$JAVA_HOME/bin:$PATH
+apt install -y docker.io
 ```
 
 
@@ -32,8 +40,6 @@ sudo apt update && sudo apt install openjdk-21-jdk -y
 ## MySQL
 ```
 chmod +x run_queries.sh && ./run_queries.sh
-
-
 docker-compose up -d && docker ps
 cd spring-boot-server && mvn spring-boot:run
 ```
